@@ -60,17 +60,17 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
               <div className="relative border-[0.5px] border-[#D4AF37] p-2.5 bg-[#141414] shadow-2xl group">
                 <div className="relative h-[380px] sm:h-[460px] overflow-hidden bg-[#242424]">
                   <img
-                    src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=800&auto=format&fit=crop"
-                    alt="The Pounds Saloon Atmosphere"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter contrast-105"
+                    src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=1200&auto=format&fit=crop"
+                    alt="The Pounds Saloon Luxury Interior"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#121212]/90 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
                   
                   {/* Floating Bottom Card */}
-                  <div className="absolute bottom-4 left-4 right-4 p-3.5 bg-[#1A1A1A]/95 backdrop-blur-md border border-[#D4AF37]/30 flex items-center justify-between">
+                  <div className="absolute bottom-4 left-4 right-4 p-3.5 bg-[#1A1A1A]/95 backdrop-blur-md border border-[#D4AF37]/40 flex items-center justify-between shadow-xl">
                     <div>
                       <h4 className="text-white serif text-sm font-semibold">Wah Cantt's Premier Ladies Salon</h4>
-                      <p className="text-[11px] text-neutral-400">Barrier No. 2 • Main GT Road • Certified Artistry</p>
+                      <p className="text-[11px] text-neutral-300">Barrier No. 2 • Main GT Road • Certified Artistry</p>
                     </div>
                     <Award className="w-5 h-5 text-[#D4AF37] shrink-0" />
                   </div>

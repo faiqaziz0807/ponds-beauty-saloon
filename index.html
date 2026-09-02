@@ -13,6 +13,26 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/logo.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var _origFetch = window.fetch ? window.fetch.bind(window) : undefined;
+          var _currentFetch = _origFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return _currentFetch || (window.fetch ? _origFetch : undefined);
+            },
+            set: function(fn) {
+              _currentFetch = fn;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          // Ignore if cannot redefine
+        }
+      })();
+    </script>
     <!-- Google Fonts for Luxury Serif and Clean Sans-Serif Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
