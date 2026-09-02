@@ -64,7 +64,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     categoryLabel: 'Hair Styling',
     shortDesc: 'Precision haircuts tailored to face shape, volume blowouts, signature waves, and trendy Korean bangs.',
     fullDesc: 'Our senior hair stylists craft customized layered cuts, butterfly haircuts, bob styles, and luscious volume blowdries using premium thermal protectants to keep your locks bouncy and radiant.',
-    image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1000&auto=format&fit=crop', // Hair cutting & styling shears in salon
+    image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1000&auto=format&fit=crop', // Stylist cutting hair with scissors & comb
     duration: '45 - 60 Mins',
     startingPrice: 'Rs. 1,500',
     popular: true,
@@ -82,7 +82,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     categoryLabel: 'Makeup Artistry',
     shortDesc: 'Signature HD & Airbrush bridal looks for Barat, Walima, Mehndi, and party glamour with flawless staying power.',
     fullDesc: 'Designed to photograph majestically under all lighting. We use high-end international cosmetics (Huda Beauty, Charlotte Tilbury, NARS, MAC) for a weightless, radiant finish with complimentary eyelash & jewelry setting.',
-    image: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1000&auto=format&fit=crop', // Elegant high-glamour bridal makeup artistry
+    image: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=1000&auto=format&fit=crop', // Makeup artist actively applying makeup to client
     duration: '2 - 3 Hours',
     startingPrice: 'Rs. 6,000',
     popular: true,
@@ -100,7 +100,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     categoryLabel: 'Skincare',
     shortDesc: '7-step HydraFacial, Janssen whitening facial, Dermalogica deep pore extraction, and 24K gold glow therapy.',
     fullDesc: 'Banish dullness, acne, and pigmentation. Our clinical facials combine ultrasonic exfoliation, vacuum extraction, hyaluronic acid infusion, and LED light therapy to unveil supple, youthful, and spotless skin.',
-    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1000&auto=format&fit=crop', // Aesthetic clinical facial treatment & spa therapy
+    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1000&auto=format&fit=crop', // Aesthetic clinical facial treatment in progress
     duration: '60 - 90 Mins',
     startingPrice: 'Rs. 3,500',
     popular: true,
@@ -118,7 +118,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     categoryLabel: 'Hair Treatments',
     shortDesc: 'Transform frizzy, unmanageable tresses into mirror-smooth, resilient, and silky straight hair lasting up to 6 months.',
     fullDesc: 'We use genuine formaldehyde-safe Brazilian Keratin, Hair Botox protein restoration, and L’Oréal Extenso rebonding to heal split ends and seal in mirror-like shine while preserving natural hair strength.',
-    image: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=1000&auto=format&fit=crop', // Shiny straight long hair
+    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1000&auto=format&fit=crop', // Hairdresser applying keratin/straightening hair treatment in salon
     duration: '3 - 4 Hours',
     startingPrice: 'Rs. 8,000',
     popular: true,
@@ -172,7 +172,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     categoryLabel: 'Body Care',
     shortDesc: 'Gentle Italian Rica fruit waxing, organic herbal wax, full-body polishing, and precision facial threading.',
     fullDesc: 'Achieve satin-smooth skin with hypoallergenic Italian Rica wax suitable for sensitive skin. Experience our full body fruit polish and deep exfoliation designed for brides and self-care lovers.',
-    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1000&auto=format&fit=crop', // Relaxing spa & body wellness
+    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1000&auto=format&fit=crop', // Spa aesthetician body polish and waxing treatment
     duration: '30 - 90 Mins',
     startingPrice: 'Rs. 1,000',
     popular: false,
@@ -190,7 +190,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     categoryLabel: 'Henna Art',
     shortDesc: 'Intricate traditional Pakistani bridal henna, Arabic floral vine motifs, and organic dark-stain henna cones.',
     fullDesc: 'Our mehndi artists handcraft exquisite symmetrical bridal patterns across arms and feet using 100% chemical-free organic henna that guarantees an alluring deep mahogany-maroon stain for wedding ceremonies.',
-    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=1000&auto=format&fit=crop', // Detailed henna mehndi design on hands
+    image: 'https://images.unsplash.com/photo-1595959183082-7b570b7e08e2?q=80&w=1000&auto=format&fit=crop', // Traditional Pakistani / Desi bride portrait with bridal jewelry
     duration: '1 - 3 Hours',
     startingPrice: 'Rs. 1,500',
     popular: false,
@@ -205,48 +205,48 @@ export const SERVICES_DATA: ServiceItem[] = [
 
 export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
   {
+    id: 'hydrafacial-glow',
+    title: 'Clinical Facial Treatment → Radiant HydraFacial Glass Skin',
+    category: 'Clinical HydraFacial',
+    description: 'Witness the direct transformation: from active in-salon deep pore vacuum exfoliation, lactic acid peeling, and collagen infusion to an instant luminous glass-skin radiance with tightened pores.',
+    beforeImage: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1000&auto=format&fit=crop', // Aesthetician in salon actively doing facial treatment on client
+    afterImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop', // Beautiful post-treatment glowing hydrated radiant skin
+    serviceUsed: '7-Step Clinical HydraFacial + 24K Gold Collagen Infusion',
+    timeTaken: '75 Minutes',
+    stylistNote: 'Immediate pore tightening, deep hydration boost, and translucent glass skin glow.'
+  },
+  {
+    id: 'bridal-transformation',
+    title: 'Active Makeup Artistry Session → Royal HD Bridal Glamour',
+    category: 'Royal Bridal Artistry',
+    description: 'From precision in-chair cosmetic application by our master makeup artist to the final regal Barat bridal look complete with HD airbrush finish, jewelry pinning, and veil setting.',
+    beforeImage: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=1000&auto=format&fit=crop', // Professional makeup artist actively applying makeup with brushes
+    afterImage: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1000&auto=format&fit=crop', // Finished high-glamour Pakistani royal bridal look
+    serviceUsed: 'Signature HD Bridal Package (Airbrush + Mink Lashes + Jewelry Setting)',
+    timeTaken: '2.5 Hours',
+    stylistNote: '16-hour sweat-resistant, tear-proof camera-ready bridal finish for Wah Cantt brides.'
+  },
+  {
     id: 'keratin-treatment',
-    title: 'Severely Frizzy & Damaged Hair → Liquid Keratin Glass Hair',
-    category: 'Keratin Protein Treatment',
+    title: 'Severe Frizz & Heat Damage → Liquid Keratin Glass Hair',
+    category: 'Keratin Hair Treatment',
     description: 'Client presented heat-damaged, coarse, frizzy, and unruly curls. Our multi-phase Brazilian Keratin protein restoration and Olaplex sealant transformed the tresses into 100% frizz-free, mirror-reflective straight hair with lasting strength.',
-    beforeImage: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=1000&auto=format&fit=crop', // Frizzy, coarse textured unruly curly hair
+    beforeImage: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=1000&auto=format&fit=crop', // Untreated frizzy, damaged unruly coarse hair
     afterImage: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=1000&auto=format&fit=crop', // Liquid glass ultra-glossy straight Brazilian Keratin repaired hair
     serviceUsed: 'Brazilian Keratin Protein Therapy + Olaplex Bond Builder',
     timeTaken: '3.5 Hours',
     stylistNote: 'Complete structural cuticle repair with mirror shine and zero styling effort required.'
   },
   {
-    id: 'hydrafacial-glow',
-    title: 'Dull & Congested Skin → Clinical HydraFacial Glass Glow',
-    category: 'Clinical HydraFacial',
-    description: 'Client had clogged pores, dry patches, and sun dullness. We performed our 7-step hydro-dermabrasion, vacuum pore extraction, lactic acid exfoliation, and deep hyaluronic acid infusion for instant glass-skin radiance.',
-    beforeImage: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1000&auto=format&fit=crop', // Bare face with uneven skin tone and dullness
-    afterImage: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1000&auto=format&fit=crop', // Clear radiant dewy glass skin facial treatment result
-    serviceUsed: '7-Step Clinical HydraFacial + 24K Gold Collagen Infusion',
-    timeTaken: '75 Minutes',
-    stylistNote: 'Immediate pore tightening, deep hydration boost, and translucent glass skin glow.'
-  },
-  {
     id: 'balayage-makeover',
-    title: 'Dark Brassy Flat Tone → Multi-Tone Honey Balayage & Gloss',
+    title: 'In-Salon Color Processing → Seamless Honey Balayage & Gloss',
     category: 'Balayage Color & Gloss',
-    description: 'Transformed flat, single-tone dark brassy roots into a seamless, multidimensional hand-painted honey caramel and ash blonde balayage with Olaplex color lock technology.',
-    beforeImage: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1000&auto=format&fit=crop', // Single-tone dull untreated dark hair
+    description: 'From precision hand-painting and root blending in the stylist chair to a radiant, multidimensional warm honey caramel and ash blonde balayage with high-gloss mirror shine.',
+    beforeImage: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1000&auto=format&fit=crop', // Stylist actively styling and treating hair in salon
     afterImage: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?q=80&w=1000&auto=format&fit=crop', // Gorgeous multi-dimensional blonde balayage highlights
     serviceUsed: 'Custom Hand-Painted Balayage + Acidic Color Gloss Toner',
     timeTaken: '3 Hours',
     stylistNote: 'Maintained 100% hair strength through lightening using Olaplex bond multiplier.'
-  },
-  {
-    id: 'bridal-transformation',
-    title: 'Natural Bare Look → Royal HD Airbrush Bridal Glamour',
-    category: 'Royal Bridal Makeover',
-    description: 'Full Barat bridal makeover featuring weightless HD airbrush foundation, sculpted smokey eyes with champagne crystal shimmer, velvet berry lips, and traditional jewelry & dupatta setting.',
-    beforeImage: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1000&auto=format&fit=crop', // Natural bare face before makeover
-    afterImage: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1000&auto=format&fit=crop', // High-glamour Pakistani royal bridal makeup with jewelry
-    serviceUsed: 'Signature HD Bridal Package (Airbrush + Mink Lashes + Jewelry Setting)',
-    timeTaken: '2.5 Hours',
-    stylistNote: '16-hour sweat-resistant, tear-proof camera-ready bridal finish for Wah Cantt brides.'
   }
 ];
 
