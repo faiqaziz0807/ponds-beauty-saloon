@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold: #D4AF37;
+    --gold-light: #F3E5AB;
+    --gold-dark: #AA820A;
+    --charcoal: #1A1A1A;
+    --charcoal-dark: #121212;
+    --charcoal-card: #222222;
+    --charcoal-soft: #282828;
+    --cream: #FAFAFA;
+    --cream-muted: #F0EFEB;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #121212;
+    color: #FAFAFA;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .serif, .font-serif-luxury {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-sans-clean {
+    font-family: 'Plus Jakarta Sans', 'Montserrat', sans-serif;
+  }
+}
+
+/* Editorial Aesthetic Utilities */
+.letter-spacing-wide {
+  letter-spacing: 0.15em;
+}
+
+.letter-spacing-widest {
+  letter-spacing: 0.25em;
+}
+
+.gold-border {
+  border-color: #D4AF37;
+}
+
+.gold-text {
+  color: #D4AF37;
+}
+
+.gold-bg {
+  background-color: #D4AF37;
+}
+
+.charcoal-bg {
+  background-color: #1A1A1A;
+}
+
+.cream-bg {
+  background-color: #FAFAFA;
+}
+
+.hairline-gold {
+  border: 0.5px solid rgba(212, 175, 55, 0.4);
+}
+
+.hairline-gold-full {
+  border: 0.5px solid #D4AF37;
+}
+
+.hairline-border {
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Editorial Gold Gradient & Accents */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F8E5A7 0%, #D4AF37 50%, #AA820A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #997500 100%);
+}
+
+.border-gold-subtle {
+  border-color: rgba(212, 175, 55, 0.25);
+}
+
+.border-gold-glow:hover {
+  border-color: rgba(212, 175, 55, 0.7);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.18);
+}
+
+/* Smooth custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D2D2D;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+

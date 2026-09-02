@@ -1,0 +1,6 @@
+{
+  "name": "The Pounds Saloon - Luxury Ladies Salon in Wah Cantt",
+  "description": "Premier luxury ladies salon in Wah Cantt offering hair styling, bridal makeup, skincare facials, keratin treatments, manicures, and expert beauty services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
